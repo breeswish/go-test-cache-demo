@@ -3,7 +3,7 @@ package bar
 import "time"
 
 func Fib(a int) int {
-	time.Sleep(time.Millisecond * 100)
+	time.Sleep(time.Millisecond * 99)
 	if a < 2 {
 		return a
 	}
