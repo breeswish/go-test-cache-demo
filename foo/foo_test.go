@@ -37,3 +37,43 @@ func TestFib9(t *testing.T) {
 func TestFib10(t *testing.T) {
 	Fib(10)
 }
+
+func TestFib10_1(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_2(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_3(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_4(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_5(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_6(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_7(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_8(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_9(t *testing.T) {
+	Fib(10)
+}
+
+func TestFib10_10(t *testing.T) {
+	Fib(10)
+}
