@@ -20,7 +20,7 @@ jobs:
           ~/.cache/go-build
           ~/Library/Caches/go-build
           ~\AppData\Local\go-build
-        key: ${{ runner.os }}-go-${{ matrix.go-version }}-${{ hashFiles('**/go.sum') }}
+        key: ${{ runner.os }}-go-${{ matrix.go-version }}-${{ hashFiles('**/go.sum') }}-${{ github.run_id }}
         restore-keys: |
           ${{ runner.os }}-go-${{ matrix.go-version }}-
     - uses: actions/setup-go@v3
